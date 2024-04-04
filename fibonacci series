@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main () {
+int limit,num,prev=0,cur=1;
+printf("Enter the limit");
+scanf("%d",&limit);
+printf("%d\n%d\n",prev,cur);
+for(num=prev+cur;num<=limit;num=prev+cur)
+    {
+     printf("%d \n",num);
+     prev=cur;
+     cur=num;
+     }
+     return 0;
+
