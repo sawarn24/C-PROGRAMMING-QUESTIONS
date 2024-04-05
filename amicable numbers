@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main () {
+int i,j,k,sum1,sum2;
+for (i=1;i<=10000;++i){
+
+ sum1=0;
+   for (j=1;j<=i/2;j++)
+   { if (i%j==0)
+       {
+num1+=j;
+    }
+}
+ sum2= 0;
+ for(k=1;k<=sum1/2;k++)
+ {
+    if (sum1%k==0)
+  {
+  num2+=k;
+  }
+ }
+ if(i==num2&& num1 !=num2 && i<num1 &num1<=10000)
+    printf("(%d,%d)\n",i,num1);
+}
+return 0;
+}
+
