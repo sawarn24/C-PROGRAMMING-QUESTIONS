@@ -1,0 +1,8 @@
+#include<stdio.h>
+main () {
+char n[25];
+puts("enter your name");
+gets(n);
+puts(n);
+return 0;
+}
