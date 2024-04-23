@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main () {
 int i,j,k,sum1,sum2;
-for (i=1;i<=10000;++i){
+for (i=1;i<=10000;++I){
 
  sum1=0;
    for (j=1;j<=i/2;j++)
